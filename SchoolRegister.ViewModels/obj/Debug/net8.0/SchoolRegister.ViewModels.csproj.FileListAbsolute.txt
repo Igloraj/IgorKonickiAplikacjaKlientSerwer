@@ -1,0 +1,15 @@
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\bin\Debug\net8.0\SchoolRegister.ViewModels.deps.json
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\bin\Debug\net8.0\SchoolRegister.ViewModels.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\bin\Debug\net8.0\SchoolRegister.ViewModels.pdb
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\bin\Debug\net8.0\SchoolRegister.Model.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\bin\Debug\net8.0\SchoolRegister.Model.pdb
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.csproj.AssemblyReference.cache
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.AssemblyInfoInputs.cache
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.AssemblyInfo.cs
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRe.74268CC5.Up2Date
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\refint\SchoolRegister.ViewModels.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.pdb
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\ref\SchoolRegister.ViewModels.dll
