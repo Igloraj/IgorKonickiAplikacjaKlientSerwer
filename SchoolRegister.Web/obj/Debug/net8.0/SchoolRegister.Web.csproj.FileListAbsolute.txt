@@ -462,3 +462,6 @@ C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaK
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Web\obj\Debug\net8.0\SchoolRegister.Web.sourcelink.json
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Web\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Web\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
