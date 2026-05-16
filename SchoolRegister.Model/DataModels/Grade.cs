@@ -1,14 +1,21 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace SchoolRegister.Model.DataModels;
 
 public class Grade
 {
     public DateTime DateOfIssue { get; set; } = DateTime.Now;
+
     public GradeScale GradeValue { get; set; }
 
-    public Subject Subject { get; set; } = null!;
+    public virtual Subject Subject { get; set; } = null!;
+
+    [ForeignKey("Subject")]
     public int SubjectId { get; set; }
 
-    public Student Student { get; set; } = null!;
+    public virtual Student Student { get; set; } = null!;
+
+    [ForeignKey("Student")]
     public int StudentId { get; set; }
 
     public Grade()

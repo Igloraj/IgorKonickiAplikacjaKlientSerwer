@@ -1,29 +1,37 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace SchoolRegister.Model.DataModels;
 
 public class Student : User
 {
-    public Group Group { get; set; } = null!;
-    public int GroupId { get; set; }
+    public virtual Group? Group { get; set; }
 
-    public List<Grade> Grades { get; set; } = new();
+    [ForeignKey("Group")]
+    public int? GroupId { get; set; }
 
-    public Parent Parent { get; set; } = null!;
-    public int ParentId { get; set; }
+    public virtual IList<Grade> Grades { get; set; } = new List<Grade>();
 
+    public virtual Parent? Parent { get; set; }
+
+    [ForeignKey("Parent")]
+    public int? ParentId { get; set; }
+
+    [NotMapped]
     public double AverageGrade
     {
         get
         {
             if (Grades == null || Grades.Count == 0)
             {
-                return 0;
+                return 0.0d;
             }
 
-            return Grades.Average(g => (double)g.GradeValue);
+            return Math.Round(Grades.Average(g => (int)g.GradeValue), 1);
         }
     }
 
-    public Dictionary<string, double> AverageGradePerSubject
+    [NotMapped]
+    public IDictionary<string, double> AverageGradePerSubject
     {
         get
         {
@@ -35,14 +43,17 @@ public class Student : User
             return Grades
                 .Where(g => g.Subject != null)
                 .GroupBy(g => g.Subject.Name)
-                .ToDictionary(
-                    g => g.Key,
-                    g => g.Average(x => (double)x.GradeValue)
-                );
+                .Select(g => new
+                {
+                    SubjectName = g.Key,
+                    AvgGrade = Math.Round(g.Average(avg => (int)avg.GradeValue), 1)
+                })
+                .ToDictionary(avg => avg.SubjectName, avg => avg.AvgGrade);
         }
     }
 
-    public Dictionary<string, List<GradeScale>> GradesPerSubject
+    [NotMapped]
+    public IDictionary<string, List<GradeScale>> GradesPerSubject
     {
         get
         {
@@ -54,10 +65,12 @@ public class Student : User
             return Grades
                 .Where(g => g.Subject != null)
                 .GroupBy(g => g.Subject.Name)
-                .ToDictionary(
-                    g => g.Key,
-                    g => g.Select(x => x.GradeValue).ToList()
-                );
+                .Select(g => new
+                {
+                    SubjectName = g.Key,
+                    GradeList = g.Select(x => x.GradeValue).ToList()
+                })
+                .ToDictionary(x => x.SubjectName, x => x.GradeList);
         }
     }
 

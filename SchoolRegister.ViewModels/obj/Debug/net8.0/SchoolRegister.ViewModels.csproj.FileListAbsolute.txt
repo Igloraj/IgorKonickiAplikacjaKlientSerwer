@@ -13,3 +13,4 @@ C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaK
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\refint\SchoolRegister.ViewModels.dll
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.pdb
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\ref\SchoolRegister.ViewModels.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.ViewModels\obj\Debug\net8.0\SchoolRegister.ViewModels.sourcelink.json

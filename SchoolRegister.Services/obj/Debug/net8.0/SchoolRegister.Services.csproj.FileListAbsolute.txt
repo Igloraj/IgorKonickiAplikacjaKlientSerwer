@@ -17,3 +17,4 @@ C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaK
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Services\obj\Debug\net8.0\refint\SchoolRegister.Services.dll
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Services\obj\Debug\net8.0\SchoolRegister.Services.pdb
 C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Services\obj\Debug\net8.0\ref\SchoolRegister.Services.dll
+C:\Users\igork\Desktop\Aplikacja Klient Serwer\IgorKonicki\IgorKonickiAplikacjaKlientSerwer\SchoolRegister.Services\obj\Debug\net8.0\SchoolRegister.Services.sourcelink.json
