@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolRegister.ViewModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b68f6f06fd58fa10cece8fb5cd8ed9d26c810141")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbdd0c97f377c547da31549e8946620b279e7b0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolRegister.ViewModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolRegister.ViewModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

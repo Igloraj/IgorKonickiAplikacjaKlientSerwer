@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Localization;
+using SchoolRegister.Web.Controllers;
 using SchoolRegister.DAL.EF;
 using SchoolRegister.Model.DataModels;
 using SchoolRegister.Services.Configuration.AutoMapperProfiles;
@@ -22,13 +24,15 @@ builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfi
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddTransient(typeof(ILogger), typeof(Logger<Program>));
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+builder.Services.AddScoped<IStringLocalizer, StringLocalizer<BaseController>>();
 
 builder.Services.AddAutoMapper(typeof(MainProfile));
-builder.Services.AddTransient<ISubjectService, SubjectService>();
-builder.Services.AddTransient<ITeacherService, TeacherService>();
-builder.Services.AddTransient<IStudentService, StudentService>();
-builder.Services.AddTransient<IGroupService, GroupService>();
-builder.Services.AddTransient<IGradeService, GradeService>();
+builder.Services.AddScoped<ISubjectService, SubjectService>();
+builder.Services.AddScoped<ITeacherService, TeacherService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<IGroupService, GroupService>();
+builder.Services.AddScoped<IGradeService, GradeService>();
 
 builder.Services.AddControllersWithViews();
 
