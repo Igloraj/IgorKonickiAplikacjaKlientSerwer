@@ -85,4 +85,32 @@ public class SubjectService : BaseService, ISubjectService
             throw;
         }
     }
+
+    public bool RemoveSubject(Expression<Func<Subject, bool>> filterExpression)
+    {
+        try
+        {
+            if (filterExpression == null)
+            {
+                throw new ArgumentNullException(nameof(filterExpression));
+            }
+
+            var subjectEntity = DbContext.Subjects.FirstOrDefault(filterExpression);
+
+            if (subjectEntity == null)
+            {
+                throw new ArgumentNullException(nameof(subjectEntity));
+            }
+
+            DbContext.Subjects.Remove(subjectEntity);
+            DbContext.SaveChanges();
+
+            return true;
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, ex.Message);
+            throw;
+        }
+    }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolRegister.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbdd0c97f377c547da31549e8946620b279e7b0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdde0f02b1e67493d134431b01a37e767e72f0d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolRegister.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolRegister.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
